@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{4aaa42f2-4c12-4279-bfd0-94ab3f3e1c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\cpp">
+      <UniqueIdentifier>{0695b1b6-1bb1-48a1-9be9-04ebff2cc60e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{f126d72c-13cb-48db-9c2a-cbf9bccee927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\GUtils">
+      <UniqueIdentifier>{1c2481bc-de0a-48bb-a6f8-dd63cb1f0fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{1ee0cbb9-91e0-497d-b76b-e866cd20bee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Scanner">
+      <UniqueIdentifier>{2223f9e8-b6b4-4e6f-a57e-1c58e9af26b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Utils">
+      <UniqueIdentifier>{c90f1d41-b66e-47ff-9774-100e5172609c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Memory">
+      <UniqueIdentifier>{e8db8be6-54f6-4de7-aa6a-ec10f951a899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Memory\cpp">
+      <UniqueIdentifier>{83f94339-290a-41ad-aea8-ad35265b30fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Scanner\cpp">
+      <UniqueIdentifier>{e4620d80-0d14-4ee9-b794-07c625cd68c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Utils\cpp">
+      <UniqueIdentifier>{d79f40a9-0eb2-4a26-abe3-e912423d9e91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GUI\LoadingForm.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUtils\GUtils.h">
+      <Filter>GUI\GUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Utils\Utils.h">
+      <Filter>Client\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Scanner\NtFunctions.h">
+      <Filter>Client\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Scanner\Scanner.h">
+      <Filter>Client\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Memory\Minecraft.h">
+      <Filter>Client\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Memory\Entity.h">
+      <Filter>Client\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\HandleSelector.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Memory\World.h">
+      <Filter>Client\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Interface.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GUI\LoadingForm.cpp">
+      <Filter>GUI\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUtils\GUtils.cpp">
+      <Filter>GUI\GUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\HandleSelector.cpp">
+      <Filter>GUI\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Memory\World.cpp">
+      <Filter>Client\Memory\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Memory\Minecraft.cpp">
+      <Filter>Client\Memory\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Memory\Entity.cpp">
+      <Filter>Client\Memory\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Scanner\Scanner.cpp">
+      <Filter>Client\Scanner\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Scanner\NtFunctions.cpp">
+      <Filter>Client\Scanner\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Utils\Utils.cpp">
+      <Filter>Client\Utils\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Interface.cpp">
+      <Filter>GUI\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
